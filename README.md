@@ -29,7 +29,7 @@ docker run -d \
 ### Explanation:
 - --name ubuntu24.04: Name of the container.
 - --privileged: Gives extended privileges to the container.
-- -v /home/smatec/ubuntu-24.04/build:/root/build: Mounts your local build directory.
+- -v /home/ubuntu-24.04/build:/root/build: Mounts your local build directory.
 - -v /var/run/docker.sock:/var/run/docker.sock: Allows Docker-in-Docker operations.
 - -v /dev:/dev: Pass through host devices.
 - -v /etc/localtime:/etc/localtime:ro and -v /etc/timezone:/etc/timezone:ro: Synchronize timezone.
